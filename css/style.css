@@ -272,8 +272,14 @@
     border-color: var(--primary);
 }
 
+
 .portfolio-img {
     position: relative;
+    justify-content: space-around;
+}
+.portfolio-img:hover{
+    opacity: 0.6;
+    transform: scale(1.06);
 }
 
 .portfolio-btn {
